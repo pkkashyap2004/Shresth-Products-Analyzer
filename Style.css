@@ -1,0 +1,419 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-image: url(image/back.jpg);
+}
+
+
+header{
+    height: 300px;
+}
+
+header p{
+    background-color: red;
+    text-align: center;
+}
+
+header h1{
+    height: 40px;
+    background-color: green;
+    text-align: center;
+    margin: 5px 0 5px 0;
+}
+
+
+
+.Header-1{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.H-2{
+    width: 90%;
+    height: 200px;
+    margin: 0 5% 0 5%;
+    background-color: aquamarine;
+}
+
+.logo {
+    width: 250px;
+    height: 180px;
+   display: flex;
+   position: relative;
+}
+
+.logo img {
+    width: 200px;
+    height: 180px;
+    padding: 5px 10px 5px 40px; 
+}
+
+.text h2{
+    width: 800px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+
+}
+.text h3{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    position: relative;
+
+}
+
+.text h5{
+    width: 100%;
+    height: 20px;
+    float: left;
+    text-align: center;
+    position: relative;
+
+}
+
+.logo-1 {
+    width: 165px;
+    height: 180px;
+    margin: 5px 0px 5px 0px;
+    float: left;
+    
+}
+
+.logo-1 img {
+    width: 60%;
+    height: 170px;
+    padding: 5px 40px 5px 40px; 
+    
+
+} 
+
+
+.Headernavbar {
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+    align-items: center;
+    margin: 10px 0 20px 0 ;
+    
+}  
+
+ .nav1 {
+    width: 150px;
+    height: 35px;
+   float: left;
+} 
+
+.nav2 {
+    width: 150px;
+    height: 35px;
+   float: left;
+}
+
+.nav3 {
+    width: 150px;
+    height: 35px;  
+   float: left;
+}
+
+.nav4 {
+   width: 150px;
+    height: 35px;
+   float: left;
+}
+
+.nav5 {
+   width: 150px;
+    height: 35px;
+   float: left;
+}
+
+.nav6 {
+    width: 150px;
+    height: 35px;
+   float: left;
+}
+
+.nav7 {
+    width: 150px;
+    height: 35px;
+   background-color: red;
+   float: left;
+} 
+
+.nav8 {
+   width: 150px;
+    height: 35px;
+   background-color: green;
+   float: left;
+} 
+
+
+
+.main_1{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(34, 0, 255, 0.533);
+    margin-top: 30px;
+    
+}
+
+
+
+.Instruction {
+    width: 40%;
+    height: 350px;
+   background-color: pink;
+   float: left;
+   justify-content: space-between;
+   align-items: center;
+   margin: 10px 5px 10px 5px;
+   
+}
+
+
+
+
+/* Formmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+
+.Input {
+    width: 40%;
+    /* height: 350px;
+   background-color: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)),url(image/Hacker.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   float: left; */
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background:url(images.jpeg);
+   background-size: cover;
+   background-position: center;
+}
+
+
+
+
+
+/* body{
+ 
+} */
+
+.wrapper{
+    width: 300px;
+    background: transparent;
+    border: 3px solid greenyellow;
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+
+.wrapper h1{ 
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.wrapper .input-box{ 
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+ 
+.input-box input{ 
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: 0;
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+ 
+.input-box input::placeholder{ 
+    color: antiquewhite;
+    /* height: 100%;
+    background: transparent;
+    outline: 0;
+    border: 2px solid white;
+    border-radius: 40px; */
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+
+}
+
+
+.wrapper .remember-forget{ 
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forget label input{ 
+    accent-color: white;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin-right: 3px;
+}
+
+.remember-forget a{ 
+    accent-color: white;
+    text-decoration: none;
+}
+
+.remember-forget a:hover{ 
+    text-decoration: underline;
+
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: white;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+
+/* }
+
+.form-box {
+    width: 90%;
+    height: 250px;
+   background-color: #fff;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: 10px 0 10px 5px;
+   
+}
+
+.form-box h1 {
+    font-size: 30px;
+    color: #3c00a0;
+    position: relative; */
+    /* padding: 15px 10px 15px 0; */
+/*    
+} 
+
+.form-box h1::before {
+    content: "";
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    position: absolute;
+    background: green;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+} 
+
+.input-field {
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px ;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+
+}
+
+.input-field i{
+   margin-left: 15px;
+   color: #999;
+}
+
+form p{
+    text-align: right;
+    font-size: 15px;
+}
+
+form p a{
+    text-decoration: none;
+    color: #3c00a0;
+}
+
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-field button{
+    height: 40px;
+    flex-basis: 48%;
+    background: #3c00c0;
+    color: #fff;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    
+}
+
+
+input-group{
+     height: 280px;
+
+}
+
+.btn-field button.disable{
+    background: #eaeaea;
+    color: #555;
+
+} */

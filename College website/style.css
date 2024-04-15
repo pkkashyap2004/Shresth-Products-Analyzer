@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(back.jpg);
+}
+
+header{
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+}
+
+.src{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(45, 204, 232);
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* h3 {
+    width: 300px;
+    height: 20px;
+    background-color: royalblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+} */
+
+.frontline{
+    height: 40px;
+    margin: 2px ;
+}
+.logo_text{
+    width: auto;
+    height: 170px;
+    color: brown;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 120px;
+    height: 160px;
+    background-color: transparent;
+    float: left;
+}
+
+.text{
+    width: 700px;
+    height: 160px;
+    background-color: #f8e117;
+   text-align: center;
+}
+
+main{
+    width: 100%;
+    height: 550px;
+    background-image: url(4.jpg);
+    position: center;
+    background-size: cover;
+    
+}
+
+.nav{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5px;
+}
+.col1{
+    height: 30px;
+    float: left;
+}
+
+.row5{
+    width: 100%;
+    height: 510px;
+    display: flex;
+}
+.main-col1{
+    background-color: red;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    Justify-items: center;
+    align-items: center;
+}
+
+.info{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.info p{
+    height: 40px;
+    text-align: center;
+    
+}
+
+
+.main-col2{
+    width: 50%;
+    height: 500px;
+    
+}
+
+.login{
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 20% 50px 20%;
+    background-color: aqua;
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+
+}
+
+h3{
+  font-weight:600;
+  padding: auto;
+  margin: 25px 10% 25px 10%;
+}
+
+form{
+   width: 80%;
+   height: 100%;
+   justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px 5px 5px 10px;
+   
+}
+
+
+.input{
+    width: 70%;
+    /* height: 30px; */
+    /* font-size: 15px; */
+    width: "";
+    margin: 5px 0px 5px 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input1{
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 0 27px 0 27px;
+    margin: 10px 0px 10px 0px;
+}
+
+#pp {
+    align-items: right;
+    text-decoration: none;
+}
