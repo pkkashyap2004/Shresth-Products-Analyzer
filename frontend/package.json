@@ -9,11 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vite": "latest",
+    "@vercel/speed-insights": "^2.0.0",
+    "mongoose": "latest",
     "react": "latest",
     "react-dom": "latest",
     "recharts": "latest",
-    "mongoose": "latest"
+    "vite": "latest"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "latest"
